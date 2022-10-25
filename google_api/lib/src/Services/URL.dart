@@ -1,13 +1,8 @@
-
-
-import 'package:google_api/src/Services/BaseURLType.dart';
-import 'package:google_api/src/Services/EndPoints.dart';
+import 'package:google_search_api/src/Services/BaseURLType.dart';
+import 'package:google_search_api/src/Services/EndPoints.dart';
 
 ///Created by Santosh Varun Karnati
 ///Created date on 21/10/22
-
-
-
 
 ///URLRequest is used to create a request call for all The HTTP Requests
 ///GET,POST,PUT,DELETE

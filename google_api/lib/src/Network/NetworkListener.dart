@@ -3,7 +3,6 @@
 
 import 'dart:io';
 
-
 ///hasNetwork is a function return bool based on InternetAddress.lookup
 Future<bool> hasNetwork() async {
   try {

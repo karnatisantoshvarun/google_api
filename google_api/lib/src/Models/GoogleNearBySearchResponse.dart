@@ -8,9 +8,8 @@ class GoogleNearBySearchResponse {
   }
 
   Map<String, dynamic> toJson() {
-  final Map<String, dynamic> data = <String, dynamic>{};
-  data['results'] = results;
-  return data;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['results'] = results;
+    return data;
   }
 }
-

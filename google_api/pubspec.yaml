@@ -1,7 +1,7 @@
-name: google_api
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+name: google_search_api
+description: This package implement Google Search API with only dart dependency(without flutter).
+version: 0.0.2
+homepage: https://github.com/karnatisantoshvarun/google_api
 
 environment:
   sdk: ">=2.15.1 <3.0.0"

@@ -7,13 +7,13 @@ Search google places using google service
 ## Getting started
 Create an API key in Google Developer Console.
 ## with dart
-$ dart pub add google_api
+$ dart pub add google_search_api
 ## with flutter
-$ flutter pub add google_api
+$ flutter pub add google_search_api
 
 ## Usage
 ```dart
-import 'package:google_api/google_api.dart';
+import 'package:google_search_api/google_search_api.dart';
 
 try {
       GoogleSearchParametersModle googleSearchParametersModle = GoogleSearchParametersModle('cruise', '-33.8670522,151.1957362', 'GOOGLE_API_KEY', 1500, 'restaurant' );

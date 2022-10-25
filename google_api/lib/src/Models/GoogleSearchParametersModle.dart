@@ -5,7 +5,8 @@ class GoogleSearchParametersModle {
   String type;
   String key;
 
-  GoogleSearchParametersModle(this.keyword, this.location, this.key, this.radius, this.type);
+  GoogleSearchParametersModle(
+      this.keyword, this.location, this.key, this.radius, this.type);
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
@@ -17,4 +18,3 @@ class GoogleSearchParametersModle {
     return data;
   }
 }
-
